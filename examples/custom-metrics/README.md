@@ -19,5 +19,5 @@ cargo run -p example-custom-metrics --features=metrics-0_24
 ### Using the `prometheus` crate
 
 ```shell
-cargo run -p example-custom-metrics --features=prometheus-0_13
+cargo run -p example-custom-metrics --features=prometheus-0_14
 ```

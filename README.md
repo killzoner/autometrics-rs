@@ -165,7 +165,7 @@ https://github.com/autometrics-dev/autometrics-rs/assets/3262610/966ed140-1d6c-4
       [dependencies]
       autometrics = {
         version = "*",
-        features = ["prometheus-0_13"],
+        features = ["prometheus-0_14"],
         default-features = false
       }
       ```
@@ -205,7 +205,7 @@ To see autometrics in action:
 ## Benchmarks
 
 Using each of the following metrics libraries, tracking metrics with the `autometrics` macro adds approximately:
-- `prometheus-0_13`: 140-150 nanoseconds
+- `prometheus-0_14`: 140-150 nanoseconds
 - `prometheus-client-0_21`: 150-250 nanoseconds
 - `metrics-0_21`: 550-650 nanoseconds
 - `opentelemetry-0_20`: 1700-2100 nanoseconds

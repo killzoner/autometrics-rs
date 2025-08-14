@@ -155,7 +155,7 @@ If you require more customization than these offered feature flags, enable just
 
 - `opentelemetry-0_24`  - use the [opentelemetry](https://crates.io/crates/opentelemetry) crate for producing metrics.
 - `metrics-0_24` - use the [metrics](https://crates.io/crates/metrics) crate for producing metrics
-- `prometheus-0_13` - use the [prometheus](https://crates.io/crates/prometheus) crate for producing metrics
+- `prometheus-0_14` - use the [prometheus](https://crates.io/crates/prometheus) crate for producing metrics
 - `prometheus-client-0_22` - use the official [prometheus-client](https://crates.io/crates/prometheus-client) crate for producing metrics
 
 ### Exemplars (for integrating metrics with traces)
