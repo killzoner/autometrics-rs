@@ -13,6 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `metrics` has been updated to v0.24 (#183)
   New feature flag: `metrics-0_24`
   Removed feature flag: `metrics-0_21`
+- `prometheus` has been updated to v0.14 (#187)
+  New feature flag: `prometheus-0_14`
+  Removed feature flag: `prometheus-0_13`
 
 ## [2.0.0](https://github.com/autometrics-dev/autometrics-rs/releases/tag/v2.0.0) - 2024-07-25
 
