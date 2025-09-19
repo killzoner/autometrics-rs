@@ -15,6 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - uses: dtolnay/rust-toolchain@stable
+        with: 
+          toolchain: stable
+          components: clippy
       - uses: Swatinem/rust-cache@v2
 
       # Lint

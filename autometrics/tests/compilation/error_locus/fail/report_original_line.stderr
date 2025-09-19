@@ -6,5 +6,5 @@ error[E0596]: cannot borrow `contents` as mutable, as it is not declared as muta
    |
 help: consider changing this to be mutable
    |
-8  |     let mut contents: Vec<u32> = Vec::new();
+ 8 |     let mut contents: Vec<u32> = Vec::new();
    |         +++
